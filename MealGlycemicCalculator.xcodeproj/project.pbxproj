@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		43915E5F19F7296900542647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E5E19F7296900542647 /* main.m */; };
 		43915E6219F7296900542647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E6119F7296900542647 /* AppDelegate.m */; };
-		43915E6519F7296900542647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E6419F7296900542647 /* ViewController.m */; };
-		43915E6819F7296900542647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43915E6619F7296900542647 /* Main.storyboard */; };
 		43915E6A19F7296900542647 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43915E6919F7296900542647 /* Images.xcassets */; };
-		43915E6D19F7296900542647 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43915E6B19F7296900542647 /* LaunchScreen.xib */; };
 		43915E7919F7296A00542647 /* MealGlycemicCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E7819F7296A00542647 /* MealGlycemicCalculatorTests.m */; };
+		43915E8319F729D700542647 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43915E8219F729D700542647 /* Default-568h@2x.png */; };
+		43915E8619F72A1400542647 /* BreakfastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E8519F72A1400542647 /* BreakfastViewController.m */; };
+		43915E8919F72A2800542647 /* LunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E8819F72A2800542647 /* LunchViewController.m */; };
+		43915E8C19F730AE00542647 /* DinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915E8B19F730AE00542647 /* DinnerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		43915E5E19F7296900542647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43915E6019F7296900542647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43915E6119F7296900542647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43915E6319F7296900542647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43915E6419F7296900542647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		43915E6719F7296900542647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43915E6919F7296900542647 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		43915E6C19F7296900542647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43915E7219F7296A00542647 /* MealGlycemicCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealGlycemicCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43915E7719F7296A00542647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43915E7819F7296A00542647 /* MealGlycemicCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealGlycemicCalculatorTests.m; sourceTree = "<group>"; };
+		43915E8219F729D700542647 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43915E8419F72A1400542647 /* BreakfastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakfastViewController.h; sourceTree = "<group>"; };
+		43915E8519F72A1400542647 /* BreakfastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakfastViewController.m; sourceTree = "<group>"; };
+		43915E8719F72A2800542647 /* LunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchViewController.h; sourceTree = "<group>"; };
+		43915E8819F72A2800542647 /* LunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchViewController.m; sourceTree = "<group>"; };
+		43915E8A19F730AE00542647 /* DinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinnerViewController.h; sourceTree = "<group>"; };
+		43915E8B19F730AE00542647 /* DinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinnerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		43915E5019F7296900542647 = {
 			isa = PBXGroup;
 			children = (
+				43915E8219F729D700542647 /* Default-568h@2x.png */,
 				43915E5B19F7296900542647 /* MealGlycemicCalculator */,
 				43915E7519F7296A00542647 /* MealGlycemicCalculatorTests */,
 				43915E5A19F7296900542647 /* Products */,
@@ -83,11 +88,13 @@
 			children = (
 				43915E6019F7296900542647 /* AppDelegate.h */,
 				43915E6119F7296900542647 /* AppDelegate.m */,
-				43915E6319F7296900542647 /* ViewController.h */,
-				43915E6419F7296900542647 /* ViewController.m */,
-				43915E6619F7296900542647 /* Main.storyboard */,
+				43915E8419F72A1400542647 /* BreakfastViewController.h */,
+				43915E8519F72A1400542647 /* BreakfastViewController.m */,
+				43915E8719F72A2800542647 /* LunchViewController.h */,
+				43915E8819F72A2800542647 /* LunchViewController.m */,
+				43915E8A19F730AE00542647 /* DinnerViewController.h */,
+				43915E8B19F730AE00542647 /* DinnerViewController.m */,
 				43915E6919F7296900542647 /* Images.xcassets */,
-				43915E6B19F7296900542647 /* LaunchScreen.xib */,
 				43915E5C19F7296900542647 /* Supporting Files */,
 			);
 			path = MealGlycemicCalculator;
@@ -199,9 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43915E6819F7296900542647 /* Main.storyboard in Resources */,
-				43915E6D19F7296900542647 /* LaunchScreen.xib in Resources */,
 				43915E6A19F7296900542647 /* Images.xcassets in Resources */,
+				43915E8319F729D700542647 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43915E6519F7296900542647 /* ViewController.m in Sources */,
+				43915E8619F72A1400542647 /* BreakfastViewController.m in Sources */,
+				43915E8919F72A2800542647 /* LunchViewController.m in Sources */,
+				43915E8C19F730AE00542647 /* DinnerViewController.m in Sources */,
 				43915E6219F7296900542647 /* AppDelegate.m in Sources */,
 				43915E5F19F7296900542647 /* main.m in Sources */,
 			);
@@ -242,25 +250,6 @@
 			targetProxy = 43915E7319F7296A00542647 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		43915E6619F7296900542647 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43915E6719F7296900542647 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		43915E6B19F7296900542647 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43915E6C19F7296900542647 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		43915E7A19F7296A00542647 /* Debug */ = {

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BreakfastViewController.h"
+#import "LunchViewController.h"
+#import "DinnerViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    BreakfastViewController *breakfastVC = [[BreakfastViewController alloc] init];
+    LunchViewController *lunchVC = [[LunchViewController alloc] init];
+    DinnerViewController *dinnerVC = [[DinnerViewController alloc] init];
+    
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    tabBarVC.viewControllers = @[breakfastVC, lunchVC, dinnerVC];
+    self.window.rootViewController = tabBarVC;
+    
     return YES;
 }
 

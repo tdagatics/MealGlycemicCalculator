@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DinnerViewController.h
 //  MealGlycemicCalculator
 //
 //  Created by Anthony Dagati on 10/21/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DinnerViewController : UIViewController
 
 @end
-
